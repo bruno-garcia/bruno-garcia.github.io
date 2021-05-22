@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Bruno Garcia&#39;s blog</title>
-    <link>https://garcia.in/posts/</link>
-    <description>Recent content in Posts on Bruno Garcia&#39;s blog</description>
+    <title>Assembly on Bruno Garcia&#39;s blog</title>
+    <link>https://garcia.in/tags/assembly/</link>
+    <description>Recent content in Assembly on Bruno Garcia&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 May 2021 16:20:00 -0400</lastBuildDate><atom:link href="https://garcia.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 May 2021 16:20:00 -0400</lastBuildDate><atom:link href="https://garcia.in/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pitfalls of Unoptimized NuGet Packages</title>
       <link>https://garcia.in/posts/2021/pitfalls-of-unoptimzied-nuget-packages/</link>
@@ -17,18 +17,6 @@
 &amp;lt;PackageReference Include=&amp;#34;UnoptimizedAssemblyDetector&amp;#34; Version=&amp;#34;0.1.0&amp;#34;&amp;gt; &amp;lt;PrivateAssets&amp;gt;all&amp;lt;/PrivateAssets&amp;gt; &amp;lt;/PackageReference&amp;gt; After you add this NuGet package, a warning will be included in your build if any unoptimized assembly is detected.
 
 The source code of project is hosted on GitHub ⭐.</description>
-    </item>
-    
-    <item>
-      <title>Hell world</title>
-      <link>https://garcia.in/posts/2020/hell-world/</link>
-      <pubDate>Tue, 29 Dec 2020 18:49:11 -0500</pubDate>
-      
-      <guid>https://garcia.in/posts/2020/hell-world/</guid>
-      <description>As we buckle up and head into 2021, I took the time to prepare a new place to write my thoughts. The opening theme will be a typo, which I hope is to be the first of many.
-As it usually goes, a new year comes with new years resolutions. And here are mine:
-Write a blog post. At least once per year.
-Console.WriteLine(&amp;#34;Hell world.&amp;#34;); println!(&amp;#34;Hell world.&amp;#34;); print(&amp;#39;Hell world.&amp;#39;); println(&amp;#34;Hell world.</description>
     </item>
     
   </channel>

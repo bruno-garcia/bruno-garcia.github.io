@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debug on Bruno Garcia&#39;s blog</title>
+    <link>https://garcia.in/tags/debug/</link>
+    <description>Recent content in Debug on Bruno Garcia&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 May 2021 16:20:00 -0400</lastBuildDate><atom:link href="https://garcia.in/tags/debug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pitfalls of Unoptimized NuGet Packages</title>
+      <link>https://garcia.in/posts/2021/pitfalls-of-unoptimzied-nuget-packages-test/</link>
+      <pubDate>Fri, 21 May 2021 16:20:00 -0400</pubDate>
+      
+      <guid>https://garcia.in/posts/2021/pitfalls-of-unoptimzied-nuget-packages-test/</guid>
+      <description>A bunch of code here  You add a NuGet package to your project. Was it compiled with optimizations? There&amp;rsquo;s a chance it wasn&amp;rsquo;t. That&amp;rsquo;s because dotnet pack and dotnet publish by default use Configuration=Debug. This can affect the size and performance of the compiled assemblies.
+https://twitter.com/khellang/status/1229171900141756416
+&amp;lt;ItemGroup&amp;gt; &amp;lt;PackageReference Include=&amp;#34;UnoptimizedAssemblyDetector&amp;#34; Version=&amp;#34;0.0.5&amp;#34;&amp;gt; &amp;lt;PrivateAssets&amp;gt;all&amp;lt;/PrivateAssets&amp;gt; &amp;lt;/PackageReference&amp;gt; &amp;lt;/ItemGroup&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>
