@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 21 May 2021 16:20:00 -0400</lastBuildDate><atom:link href="https://garcia.in/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pitfalls of Unoptimized NuGet Packages</title>
-      <link>https://garcia.in/posts/2021/pitfalls-of-unoptimzied-nuget-packages/</link>
+      <link>https://garcia.in/posts/2021/pitfalls-of-unoptimized-nuget-packages/</link>
       <pubDate>Fri, 21 May 2021 16:20:00 -0400</pubDate>
       
-      <guid>https://garcia.in/posts/2021/pitfalls-of-unoptimzied-nuget-packages/</guid>
+      <guid>https://garcia.in/posts/2021/pitfalls-of-unoptimized-nuget-packages/</guid>
       <description>Summary You might unknowingly be using an unoptimized dependency which could impact the performance of your app. Now, it&amp;rsquo;s easy to get a warning if that happens, at build time, using the NuGet package UnoptimizedAssemblyDetector:
 &amp;lt;PackageReference Include=&amp;#34;UnoptimizedAssemblyDetector&amp;#34; Version=&amp;#34;0.1.0&amp;#34;&amp;gt; &amp;lt;PrivateAssets&amp;gt;all&amp;lt;/PrivateAssets&amp;gt; &amp;lt;/PackageReference&amp;gt; After you add this NuGet package, a warning will be included in your build if any unoptimized assembly is detected.
 
